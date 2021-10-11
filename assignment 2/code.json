@@ -1,0 +1,39 @@
+{
+    "courseTitle" : "Six Sigma IV - DMAIC - Go! " ,
+    "subTitle":"Analyze" ,
+    "pageTitle":"Check Your Knowledge",
+    "instruction":"Match the relevant area to its characteristic feature.",
+    "instruction1":"When you're done click Submit.",
+    "options":[
+        {
+            "question":"The purpose of Analyze phase is to understand which inputs are causing the problem in the output",
+            "answer":"True"
+        } ,  
+        {
+            "question":"The purpose of the Analyze is to create lot of charts and ghraphs ",
+            "answer":"False"
+        } ,   
+        {
+            "question":"Once in the Analyze Phase you must remain there until the root cause has been figured out",
+            "answer":"False"
+        } ,   
+        {
+            "question":"The purpose of Analyze phase is to understand which inputs are causing the problem in the output",
+            "answer":"True"
+        } ,   
+      
+        {
+            "question":"The Analyze phase cannot succced without creating charts",
+            "answer":"False"
+        }  
+          
+        
+        ],
+        "resetButton":{
+            "image":"/resetBtn_en.png",
+            "id":"01"
+        }
+    
+        
+ }
+ 

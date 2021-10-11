@@ -1,0 +1,204 @@
+
+     /* .container{
+        transform-origin: left top;
+        transform: scale(1.2, 1.2);
+        left: 0px;
+        top: 230.104px;
+        cursor: default;
+    } 
+ */
+
+
+
+
+    .titleClass {
+        font-size: 40px;
+
+    }
+    .subTitleClass{
+        font-size: 20px;
+        box-sizing: border-box;
+        /* margin-left: 10px; */
+        border-bottom: 1px solid;
+        
+    }
+    .pageTitleClass{
+        margin-top: 10px;
+        font-family: Trebuchet MS;
+        font-weight: bold;
+        font-size :30px;
+    }
+    .instructionClass{
+        margin-left: 20px;
+        margin-top: 10px;
+        font-size: 20px;
+    }
+    .instruction1Class{
+        margin-left: 20px;
+        margin-top: 5px;
+        font-size: 20px;
+        color: blue;
+    }
+    
+    
+    
+       
+    
+
+
+    
+  
+
+    
+    .contentClass {
+        display: grid;
+        grid-template-columns: 800px 200px 300px !important;
+      
+        
+       
+       
+        gap: 10px;
+        padding: 10px; 
+         
+   }
+    
+
+        .questionsClass{    
+            margin-right: 25%;
+            margin-top: 20px;
+            width: 150%;
+    
+        }
+        .queDivClass{
+            box-sizing: border-box;
+            margin-bottom: 10px;
+            /* margin-right: 50px; */
+            border: 1px solid;
+            /* padding:20px; */
+            padding-left:5px ;
+            padding-bottom: 5px;
+            background-color: lightgray;
+        }
+        .radioDivClass{
+            float: right;
+            margin-right: 20%   ;
+        }
+        #img,#img1{
+            opacity: 0;
+        }
+        
+    .resetClass{
+        background-image:  url(resetDisableBtn_en.png);
+        background-repeat: no-repeat;
+        background-size: 100% 100%;
+        height: 60px;
+        width: 200px;
+        float: left;
+        display: inline-block;
+        cursor: default;
+        border-radius: 5px;
+        margin-left: 10px;
+        margin-top: 30px;
+        bottom: 10%;
+        
+    }
+    .resetDisableClass{
+        background-image:  url(resetBtn_en.png);
+      
+    }
+    .showMeClass{
+        background-image:  url(showMeDisable_en.png);
+        background-repeat: no-repeat;
+        background-size: 100% 100%;
+        height: 60px;
+        width: 200px;
+        float: left;
+        display: inline-block;
+        cursor: default;
+        border-radius: 5px;
+        margin-left: 10px;
+        margin-top: 30px;
+        
+
+
+    }
+    .showMeDisableClass{
+        background-image:  url(showMe_en.png);
+    }
+    .submitClass{
+        background-image:  url(submitDisableBtn_en.png);
+        background-repeat: no-repeat;
+        background-size: 100% 100%;
+        height: 60px;
+        width: 200px;
+        float: right;
+        display: inline-block;
+        cursor: default;
+        border-radius: 5px;
+        margin-left: 10px;
+        margin-top: 30px;
+        margin-right: 25%;
+
+    }
+    .submitDisableClass{
+        background-image:  url(submitBtn_en.png);
+    }
+  
+    
+
+    .modalWindowClass{
+        /* font-family: verdana; 
+        border: 1px solid;
+        font-size: 14px; 
+        width: 248px; 
+        min-height: 104px; 
+        padding: 10px 10px; 
+        background: rgb(255, 255, 255); 
+        border-radius: 15px; 
+        margin: 2px 2px 2px 30px; 
+        text-align: center;
+        opacity: 0;
+         cursor: default; line-height: 1; */
+         position: absolute;
+         top: 50%;
+         left: 35%;
+         bottom: 50%;
+         transform: translate(-50%, -50%);
+         width: 20%;
+         text-align: center;
+         transform: translate(-50%, -50%);
+         background-color: white;
+         padding: 6rem;
+         border-radius: 5px;
+         box-shadow: 0 3rem 5rem rgba(0, 0, 0, 0.3);
+         z-index: 10;
+        
+       }    
+       
+.crossButtonClass{
+    position: absolute;
+    top: 1.2rem;
+    right: 2rem;
+    font-size: 5rem;
+    color: #333;
+    cursor: pointer;
+    border: none;
+    background: none;
+    
+  }
+ 
+  
+  .hidden {
+    display: none;
+  }
+   
+    
+
+
+
+     /* border: 1px solid;
+                margin-bottom: 10px;
+                padding: 5px;
+                text-align: center;
+                box-sizing: border-box; */
+        /* border-style: dotted; */
